@@ -25,6 +25,11 @@ export function App() {
           </NavigationMenuItem>
           
         </NavigationMenuList>
+
+          <div>
+            <p className="noticeHeader">(press 'd' to toggle dark mode)</p>
+          </div>
+        
       </NavigationMenu>
 
       {/*<div>
@@ -53,7 +58,7 @@ export function App() {
       <div className="introTextP space-y-4">
             <p> <a className="awsdeequ" href="https://github.com/awslabs/deequ" target="_blank">AWS Deequ</a> • Deequ is a library built on top of Apache Spark for defining "unit tests for data", which measure data quality in large datasets. </p>
             <p> <a className="ferrari" href="https://github.com/steps/Ferrari" target="_blank">Ferrari</a> • The Ferrari Reachability Index is a main-memory index structure for rapid processing of reachability queries over massive graphs. </p>
-            <p></p>
+            <p> <a className="wikilinks" href="https://github.com/steps/wikilinks-corpus-hadoop" target="_blank">wikilinks-corpus-hadoop</a> • Tools for processing the Wikilinks corpus with Hadoop  </p>
             <p></p>
       </div>  
 

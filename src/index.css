@@ -226,3 +226,19 @@
 .TSUnderline{
     text-decoration: underline;
 }
+
+.noticeHeader{
+    margin-top: 12px;
+    margin-left: 200px;
+    font:
+      0.9rem "Barlow",
+      sans-serif;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.wikilinks{
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: 10px;
+}

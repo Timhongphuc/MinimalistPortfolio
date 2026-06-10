@@ -33,10 +33,10 @@ function isTheme(value: string | null): value is Theme {
 
 function getSystemTheme(): ResolvedTheme {
   if (window.matchMedia(COLOR_SCHEME_QUERY).matches) {
-    return "dark"
+    return "light"
   }
 
-  return "light"
+  return "dark" //Hehe fixed this. Now it's in light mode by default :)
 }
 
 function disableTransitionsTemporarily() {
