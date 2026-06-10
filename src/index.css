@@ -206,13 +206,18 @@
 
 .allContents {
   /*I dont really know yet. But we will see. :)*/
-  width: 70%;
-  padding-right: 0%;
-  padding-left: 35%;
+  
+  /*width: 70%;*/
+  /*padding-right: 0%;*/
+  /*padding-left: 35%;*/
+
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1.5rem; /*Gemini AI helped me with this one (it looks as good as before but its responsive now -> Thats a lot better)*/
 }
 
 .programming {
-  margin-bottom: 104%;
+  margin-bottom: 87%;
 }
 
 .footerLine {
@@ -230,7 +235,7 @@
 
 .noticeHeader {
   margin-top: 12px;
-  margin-left: 200px;
+  margin-left: 370px;
   font:
     0.9rem "Barlow",
     sans-serif;
@@ -242,4 +247,14 @@
   text-decoration: underline;
   cursor: pointer;
   margin-bottom: 10px;
+}
+
+.navbarpointer{
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .noticeHeader { /*Gemini AI helped with compatibility and responsiveness -> Hide the dark mode toggle notice on mobile devices*/
+    display: none;
+  }
 }

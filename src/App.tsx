@@ -16,13 +16,13 @@ export function App() {
         <NavigationMenuList>
 
             <NavigationMenuItem>
-                <NavigationMenuLink>Home</NavigationMenuLink>
+                <NavigationMenuLink className="navbarpointer">Home</NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem>
-                <NavigationMenuLink>Socials</NavigationMenuLink>
+                <NavigationMenuLink className="navbarpointer">Socials</NavigationMenuLink>
           </NavigationMenuItem>
           <NavigationMenuItem>
-              <NavigationMenuLink>Blog</NavigationMenuLink>
+              <NavigationMenuLink className="navbarpointer">Blog</NavigationMenuLink>
           </NavigationMenuItem>
           
         </NavigationMenuList>
