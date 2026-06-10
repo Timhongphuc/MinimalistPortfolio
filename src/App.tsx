@@ -1,15 +1,9 @@
-import { Button } from "@/components/ui/button"
 import {
   NavigationMenu,
-  NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu"
-import { Underline } from "lucide-react"
-import stepsPhoto from './assets/steps.png'
-
 
 export function App() {
   return (

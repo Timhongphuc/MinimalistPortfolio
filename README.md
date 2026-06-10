@@ -1,21 +1,17 @@
-# React + TypeScript + Vite + shadcn/ui
+# MinimalistPortfolio
 
-This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
+A personal portfolio built with React, TypeScript, Vite, and shadcn/ui.
 
-## Adding components
-
-To add components to your app, run the following command:
+## Getting started
 
 ```bash
-npx shadcn@latest add button
+npm install
+npm run dev
 ```
 
-This will place the ui components in the `src/components` directory.
+## Scripts
 
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button"
-```
+- `npm run dev` — start the local dev server
+- `npm run build` — create a production build
+- `npm run lint` — run ESLint
+- `npm run typecheck` — run the TypeScript type checker
