@@ -4,6 +4,7 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
 } from "@/components/ui/navigation-menu"
+import { Kbd } from "@/components/ui/kbd"
 
 export function App() {
   return (
@@ -27,7 +28,7 @@ export function App() {
         </NavigationMenuList>
 
           <div>
-            <p className="noticeHeader">(press 'd' to toggle dark mode)</p>
+            <p className="noticeHeader">(press <Kbd>D</Kbd> to toggle dark mode)</p>
           </div>
         
       </NavigationMenu>

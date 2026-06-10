@@ -188,57 +188,58 @@
   margin-bottom: 10px;
 }
 
-.pCompaniesProj{
-    text-decoration: underline;
-    cursor: pointer;
+.pCompaniesProj {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
-.pLanguages{
-    text-decoration: underline;
-    cursor: pointer;
-    font-style: italic;
+.pLanguages {
+  text-decoration: underline;
+  cursor: pointer;
+  font-style: italic;
 }
 
-.pLanguagesN{
-    text-decoration: underline;
-    cursor: pointer;
+.pLanguagesN {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
-.allContents{ /*I dont really know yet. But we will see. :)*/
-    width: 70%;
-    padding-right: 0%;
-    padding-left: 35%;
+.allContents {
+  /*I dont really know yet. But we will see. :)*/
+  width: 70%;
+  padding-right: 0%;
+  padding-left: 35%;
 }
 
-.programming{
-    margin-bottom: 112%;
+.programming {
+  margin-bottom: 104%;
 }
 
-.footerLine{
-    /*margin-bottom: 50px;*/
-    font:
-        0.9rem "Barlow",
-        sans-serif;
-    font-weight: bolder;
-    margin-top: 10px;
+.footerLine {
+  /*margin-bottom: 50px;*/
+  font:
+    0.9rem "Barlow",
+    sans-serif;
+  font-weight: bolder;
+  margin-top: 10px;
 }
 
-.TSUnderline{
-    text-decoration: underline;
+.TSUnderline {
+  text-decoration: underline;
 }
 
-.noticeHeader{
-    margin-top: 12px;
-    margin-left: 200px;
-    font:
-      0.9rem "Barlow",
-      sans-serif;
-    font-weight: lighter;
-    margin-bottom: 10px;
+.noticeHeader {
+  margin-top: 12px;
+  margin-left: 200px;
+  font:
+    0.9rem "Barlow",
+    sans-serif;
+  font-weight: lighter;
+  margin-bottom: 10px;
 }
 
-.wikilinks{
-    text-decoration: underline;
-    cursor: pointer;
-    margin-bottom: 10px;
+.wikilinks {
+  text-decoration: underline;
+  cursor: pointer;
+  margin-bottom: 10px;
 }
