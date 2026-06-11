@@ -217,7 +217,8 @@
 }
 
 .programming {
-  margin-bottom: 87%;
+    {/*margin-bottom: 87%;*/}
+    margin-bottom: 25px;
 }
 
 .footerLine {
@@ -227,6 +228,7 @@
     sans-serif;
   font-weight: bolder;
   margin-top: 10px;
+  margin-left: 23px;
 }
 
 .TSUnderline {
