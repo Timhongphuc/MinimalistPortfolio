@@ -218,7 +218,7 @@
 
 .programming {
     {/*margin-bottom: 87%;*/}
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .footerLine {
@@ -259,4 +259,10 @@
   .noticeHeader { /*Gemini AI helped with compatibility and responsiveness -> Hide the dark mode toggle notice on mobile devices*/
     display: none;
   }
+}
+
+.social{
+    margin-left: 23px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
