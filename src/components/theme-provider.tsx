@@ -36,7 +36,7 @@ function getSystemTheme(): ResolvedTheme {
     return "light"
   }
 
-  return "dark" //Hehe fixed this. Now it's in light mode by default :)
+  return "light" //Hehe fixed this. Now it's in light mode by default :)
 }
 
 function disableTransitionsTemporarily() {

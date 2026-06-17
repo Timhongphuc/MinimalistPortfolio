@@ -206,7 +206,7 @@
 
 .allContents {
   /*I dont really know yet. But we will see. :)*/
-  
+
   /*width: 70%;*/
   /*padding-right: 0%;*/
   /*padding-left: 35%;*/
@@ -265,4 +265,9 @@
     margin-left: 23px;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+::selection{
+    background-color: orangered;
+    /*color: black;*/
 }
